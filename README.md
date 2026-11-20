@@ -1,4 +1,4 @@
-# SmokeGuard AI - Forest Fire & Smoke Detection on Azure
+# SmokeGuard AI - Forest Fire & Smoke Detection
 
 React dashboard + Flask/YOLOv8 API + Azure infrastructure as code + CI/CD.
 
@@ -78,7 +78,7 @@ Screenshots of the application and detection results are available in:
 
 `documentation/deployment screenshots/`
 
-### Member 5 Responsibilities
+### 5 Responsibilities
 - Prepared cloud deployment configuration.
 - Configured the Streamlit deployment.
 - Verified the public application URL.
