@@ -44,3 +44,46 @@ Screenshot Locust (RPS / latency) and the Container App replica count in the por
 
 ## Team split (from your plan)
 Frontend -> `frontend/` | AI -> `training/` | Backend -> `backend/` | Cloud -> `infra/` + `.github/` | Integration -> tests + loadtest
+## Cloud Deployment – Member 5
+
+### Deployment Platform
+The SmokeGuard AI application was deployed using **Streamlit Community Cloud**.
+
+### Live Application
+[Open SmokeGuard AI](https://smokeguard-ai-5yzydkbxr5dd3x8wben2yc.streamlit.app/)
+
+### Source Code
+[GitHub Repository – SmokeGuard AI](https://github.com/tasneem-99/SmokeGuard-AI)
+
+### Deployment Configuration
+- **Platform:** Streamlit Community Cloud
+- **Repository:** `tasneem-99/SmokeGuard-AI`
+- **Branch:** `main`
+- **Main application file:** `backend/streamlit_app/app.py`
+- **Python version:** 3.11
+- **AI Model:** YOLOv8
+- **Supported classes:** Smoke and Fire
+
+### Testing and Verification
+The deployed application was opened and tested successfully.
+
+The following tests were performed:
+1. Application accessibility through the public cloud URL.
+2. Smoke image upload and detection.
+3. Fire image upload and detection.
+4. Verification of the displayed detection results.
+
+### Deployment Evidence
+Screenshots of the application and detection results are available in:
+
+`documentation/deployment screenshots/`
+
+### Member 5 Responsibilities
+- Prepared cloud deployment configuration.
+- Configured the Streamlit deployment.
+- Verified the public application URL.
+- Tested the deployed application.
+- Collected deployment and testing evidence.
+
+### Deployment Note
+The deployed Streamlit application is a cloud-hosted demonstration of SmokeGuard AI. The main React frontend and Flask backend are separate components and are not represented by this Streamlit deployment.
